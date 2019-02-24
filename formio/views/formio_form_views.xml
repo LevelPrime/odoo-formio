@@ -87,6 +87,7 @@ See LICENSE file for full licensing details. -->
         <field name="arch" type="xml">
 	    <form string="Form">
                 <sheet>
+                    <field name="id" invisible="1"/>
                     <div class="oe_button_box" name="button_box">
                         <button name="action_formio" type="object" string="Form"
                                 class="oe_stat_button" icon="fa-rocket" aria-label="Form"/>
